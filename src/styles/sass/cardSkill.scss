@@ -1,0 +1,44 @@
+.card-skill {
+  width: 160px;
+  height: 240px;
+  text-align: center;
+  transition: all 200ms;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .img-container {
+      display: grid;
+      place-content: center;
+      transform: skew(0deg, 6.5deg);
+      height: 104px;
+      width: 104px;
+      background-color: aliceblue;
+      border-radius: 10px;
+      z-index: 1;
+      box-shadow: 1px 1px 8px rgba($color: #000000, $alpha: 0.3);
+    .inner-skew {
+      width: 88px;
+    }
+  }
+  .text-container {
+    padding: 60px 10px 10px 10px;
+    border-radius: 20px;
+    background: #fff;
+    margin: -54px 0px 0px 0px;
+    line-height: 14px;
+    font-size: 14px;
+    min-height: 100px;
+    h3 {
+      margin: 10px 0px 5px 0px;
+      color: #04bcff;
+      font-size: 18px;
+    }
+  }
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+
+

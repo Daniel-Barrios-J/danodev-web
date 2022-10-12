@@ -1,0 +1,19 @@
+.skills {
+  width: 50%;
+  margin-top: 12px;
+}
+.skills .title-skills {
+  margin: 0 32px;
+  text-align: left;
+  color: beige;
+  font-size: 40px;
+}
+.skills .skills-container {
+  margin-top: 56px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto, auto);
+  gap: 32px 0;
+}
+
+/*# sourceMappingURL=skills.css.map */

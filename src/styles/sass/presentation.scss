@@ -1,0 +1,39 @@
+$colorPrincipal: #16213E;
+$colorSecundario: #0c716e;
+$colorTerciario: #E94560;
+
+.presentation {
+  width: 50%;
+  text-align: left;
+  color: beige;
+  .presentation-container {
+    margin: 10em 0 0 6em;
+    width: 90%;
+    .title-pre {
+      font-size: 30px;
+      font-weight: bolder;
+      margin: 0;
+    }
+    .title-name {
+      margin: 24px 0;
+      font-size: 124px;
+      font-weight: bolder;
+      color: #5800FF;
+
+      color: transparent;
+      background-clip: text;
+      background-image: url('https://thumbs.gfycat.com/WhimsicalSandyArrowana-max-1mb.gif');
+      // background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Ffondo-abstracto-con-las-pir%25C3%25A1mides-con-efectos-luminosos-dise%25C3%25B1o-moderno-con-las-figuras-geom%25C3%25A9tricas-70106686.jpg&f=1&nofb=1&ipt=d1a04a97c1c4e400e86ea5d94a70e6226c4abe72b17c250b06c6a2d8d2ffaeba&ipo=images');
+      background-position: center;
+      background-size: cover;
+    }
+    .title-dev {
+      font-size: 42px;
+      margin: 0;
+    }
+    .buttons-container {
+      margin-top: 16px;
+      width: 100%;
+    }
+  }
+}

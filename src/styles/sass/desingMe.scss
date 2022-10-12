@@ -1,0 +1,20 @@
+$colorPrincipal: #16213E;
+$colorSecundario: #0c716e;
+$colorTerciario: #E94560;
+
+.desing-me {
+  width: 50%;
+  margin-top: 12px;
+  .title-projects {
+    margin: 0 32px;
+    text-align: left;
+    color: beige;
+    font-size: 40px;
+  }
+  .desing-me-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+}

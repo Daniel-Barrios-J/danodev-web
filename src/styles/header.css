@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+.header .inicio-container {
+  margin-left: 40px;
+  border-radius: 6px;
+  padding: 0 12px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.header .inicio-container .inicio-title {
+  color: transparent;
+  background-clip: text;
+  font-size: 36px;
+  margin: 0;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Ffondo-abstracto-con-las-pir%25C3%25A1mides-con-efectos-luminosos-dise%25C3%25B1o-moderno-con-las-figuras-geom%25C3%25A9tricas-70106686.jpg&f=1&nofb=1&ipt=d1a04a97c1c4e400e86ea5d94a70e6226c4abe72b17c250b06c6a2d8d2ffaeba&ipo=images");
+  background-position: center;
+  background-size: cover;
+}
+.header .nav-container {
+  width: 40%;
+  margin-right: 16px;
+}
+.header .nav-container .list-nav {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header .nav-container .list-nav .list-item {
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+  padding: 12px 10px 8px;
+  border: solid 2px #16213E;
+  border-radius: 8px;
+  transition: all 200ms;
+  color: beige;
+  width: 72px;
+}
+.header .nav-container .list-nav .list-item:hover {
+  border: solid 2px #0c716e;
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,46 @@
+$colorTextPrimary: white;
+$colorTextSecodnary: #36395A;
+$btnBackPrimary: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+$btnBackSecondary: #FCFCFD;
+
+@mixin btn-base($backBtn, $color) {
+  font-family: 'Josefin Sans', sans-serif;
+  align-items: center;
+  background-image: $backBtn;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  color: $color;
+  cursor: pointer;
+  height: 48px;
+  padding: 0 36px;
+  transition: all 100ms;
+  user-select: none;
+  font-size: 18px;
+  margin: 0 24px;
+}
+
+.btn-primary {
+  @include btn-base($btnBackPrimary, $colorTextPrimary);
+  &:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  &:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(0px);
+  }
+}
+
+
+.btn-secondary {
+  @include btn-base($btnBackSecondary, $colorTextSecodnary);
+  &:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  &:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(0px);
+  }
+}

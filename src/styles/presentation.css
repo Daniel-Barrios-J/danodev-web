@@ -1,0 +1,35 @@
+.presentation {
+  width: 50%;
+  text-align: left;
+  color: beige;
+}
+.presentation .presentation-container {
+  margin: 10em 0 0 6em;
+  width: 90%;
+}
+.presentation .presentation-container .title-pre {
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 0;
+}
+.presentation .presentation-container .title-name {
+  margin: 24px 0;
+  font-size: 124px;
+  font-weight: bolder;
+  color: #5800FF;
+  color: transparent;
+  background-clip: text;
+  background-image: url("https://thumbs.gfycat.com/WhimsicalSandyArrowana-max-1mb.gif");
+  background-position: center;
+  background-size: cover;
+}
+.presentation .presentation-container .title-dev {
+  font-size: 42px;
+  margin: 0;
+}
+.presentation .presentation-container .buttons-container {
+  margin-top: 16px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=presentation.css.map */
