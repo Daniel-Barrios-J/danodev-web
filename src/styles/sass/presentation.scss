@@ -16,7 +16,7 @@ $colorTerciario: #E94560;
     }
     .title-name {
       margin: 24px 0;
-      font-size: 124px;
+      font-size: 9em;
       font-weight: bolder;
       color: #5800FF;
 
@@ -33,7 +33,9 @@ $colorTerciario: #E94560;
     }
     .buttons-container {
       margin-top: 16px;
-      width: 100%;
+      width: auto;
+      display: flex;
+      gap: 2em;
     }
   }
 }
@@ -59,6 +61,7 @@ $colorTerciario: #E94560;
         margin-top: 16px;
         width: 100%;
         display: flex;
+        justify-content: space-evenly;
       }
     }
   }

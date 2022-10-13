@@ -14,7 +14,7 @@
 }
 .presentation .presentation-container .title-name {
   margin: 24px 0;
-  font-size: 124px;
+  font-size: 9em;
   font-weight: bolder;
   color: #5800FF;
   color: transparent;
@@ -29,7 +29,9 @@
 }
 .presentation .presentation-container .buttons-container {
   margin-top: 16px;
-  width: 100%;
+  width: auto;
+  display: flex;
+  gap: 2em;
 }
 
 @media all and (max-width: 720px) {
@@ -55,6 +57,7 @@
     margin-top: 16px;
     width: 100%;
     display: flex;
+    justify-content: space-evenly;
   }
 }
 

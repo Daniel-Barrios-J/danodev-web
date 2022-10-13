@@ -11,6 +11,7 @@
 .desing-me .desing-me-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   max-width: 100%;
   margin-bottom: 32px;
