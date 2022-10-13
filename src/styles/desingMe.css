@@ -1,5 +1,5 @@
 .desing-me {
-  width: 50%;
+  width: 70%;
   margin-top: 12px;
 }
 .desing-me .title-projects {
@@ -10,6 +10,7 @@
 }
 .desing-me .desing-me-container {
   display: flex;
+  height: 80%;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;

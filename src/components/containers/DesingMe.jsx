@@ -20,6 +20,12 @@ const DesingMe = () => {
           link={'https://chuck-danodev.netlify.app/'}  
         />
        
+        <CardProject 
+          project='Chuck Jokes'
+          description={'Una pagina donde podras votar por los chistes malos sobre chuck norris'} 
+          link={'https://chuck-danodev.netlify.app/'}  
+        />
+
       </div>
     </section>
   );

@@ -8,7 +8,7 @@ const CardProject = ({project, description, link}) => {
         <div class="content">
           <h3>{project}</h3>
           <p>{description}</p>
-          <a href={link}>Read More</a>
+          <a target={'_blank'} href={link} rel="noreferrer" >Read More</a>
         </div>
       </div>
     </div>

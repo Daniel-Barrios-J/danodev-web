@@ -1,0 +1,22 @@
+.card-page {
+  display: flex;
+  flex-direction: column;
+  .card-contact-container {
+    width: 90%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+  }
+  .contact-direct {
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    // align-items: center;
+    font-size: 1.5em;
+    color: beige;
+  }
+}
+

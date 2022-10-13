@@ -1,11 +1,14 @@
 import React from 'react';
 import Header from '../../components/pure/Header';
+import '../../styles/portfolioPage.css'
 
 const PortfolioPage = () => {
   return (
-    <div>
+    <div className='portfolio-page-container'>
       <Header />
-      <h1>Portfolio Page</h1>
+      <div className='portfolio-main'>
+        <h1>Working on it!</h1>
+      </div>
     </div>
   );
 }

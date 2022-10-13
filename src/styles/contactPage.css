@@ -1,0 +1,22 @@
+.card-page {
+  display: flex;
+  flex-direction: column;
+}
+.card-page .card-contact-container {
+  width: 90%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+}
+.card-page .contact-direct {
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5em;
+  color: beige;
+}
+
+/*# sourceMappingURL=contactPage.css.map */

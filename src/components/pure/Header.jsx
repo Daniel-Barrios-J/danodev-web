@@ -12,8 +12,8 @@ const Header = () => {
           <ul className='list-nav'>
             <NavLink className='list-item' to={'/'}>Home</NavLink>
             <NavLink className='list-item' to={'/about'}>About</NavLink>
-            <NavLink className='list-item' to={'/portfolio'}>Portfolio</NavLink>
             <NavLink className='list-item' to={'/contact'}>Contact</NavLink>            
+            <NavLink className='list-item' to={'/portfolio'}>Portfolio</NavLink>
           </ul>
         </nav>
       </header>

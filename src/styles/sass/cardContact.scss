@@ -1,0 +1,64 @@
+$colorPrincipal: #16213E;
+$colorSecundario: #0c716e;
+$colorTerciario: #E94560;
+
+.card-contact {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  .card-container-description {
+    opacity: 0;
+    margin-left: 24px;
+    transition: all 200ms;
+    width: 150px;
+  }
+  .card-contact-logo {
+    cursor: pointer;
+    padding: 10px;
+    width: 6em;
+    height: 6em;
+    background: rgb(201, 201, 201);
+    border-radius: 1.2em;
+    // opacity: 0.6;
+    transition: all 0.4s cubic-bezier(0.33, 1, 0.68, 1);
+    display: grid;
+    place-items: center;
+    img {
+      width: 90%;
+    }
+  }
+
+  &:hover {
+    .card-contact-logo {
+      background: white;
+      transform: scale(1.15) rotateZ(45deg);
+    }
+    .card-container-description {
+      transform: translateX(50px);
+      opacity: 1;
+    }
+  }
+}
+
+@media all and (max-width: 720px) {
+  .card-contact {
+    a {
+      .card-contact-logo {
+        background: white;
+        transform: scale(1.15) rotateZ(45deg);
+        img {
+          transform: scale(1.15) rotateZ(-45deg);
+          width: 70%;
+          
+        }
+      }
+    }
+    .card-container-description {
+      opacity: 1;
+      transform: translateX(50px);
+    }
+  }
+  
+  
+}
