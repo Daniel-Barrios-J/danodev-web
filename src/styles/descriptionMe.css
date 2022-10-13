@@ -25,4 +25,19 @@
   background-size: cover;
 }
 
+@media all and (max-width: 720px) {
+  .about-me {
+    width: 100%;
+  }
+  .about-me .about-me-container {
+    margin: 0;
+  }
+  .about-me .about-me-container .about-me-text {
+    font-size: 1em;
+  }
+  .about-me .about-me-container .about-me-text .title-name {
+    font-size: 1.2em;
+  }
+}
+
 /*# sourceMappingURL=descriptionMe.css.map */

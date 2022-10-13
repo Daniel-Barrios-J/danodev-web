@@ -26,3 +26,18 @@
     
   }
 }
+
+@media all and (max-width: 720px) {
+  .about-me {
+    width: 100%;
+    .about-me-container {
+      margin: 0;
+      .about-me-text {
+        font-size: 1em;
+        .title-name {
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+}

@@ -16,4 +16,20 @@
   gap: 32px 0;
 }
 
+@media all and (max-width: 720px) {
+  .skills {
+    width: 100%;
+    margin-top: 3em;
+  }
+  .skills .title-skills {
+    font-size: 2.4em;
+  }
+  .skills .skills-container {
+    margin: 2em 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto, auto);
+    place-items: center;
+  }
+}
+
 /*# sourceMappingURL=skills.css.map */
