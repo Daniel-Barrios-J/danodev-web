@@ -4,7 +4,7 @@ import ContactPage from './pages/contact/ContactPage';
 import PortfolioPage from './pages/portfolio/PortfolioPage';
 import NotFoundPage from './pages/404/NotFoundPage';
 import Home from './pages/home/Home';
-import './styles/App.css';
+import './styles/app.css';
 
 function App() {
   return (

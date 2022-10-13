@@ -8,7 +8,7 @@ $colorTerciario: #E94560;
   align-items: center;
   height: 10vh;
   .inicio-container {
-    margin-left: 40px;
+    margin-left: 1em;
     border-radius: 6px;
     padding: 0 12px;
     cursor: pointer;
@@ -47,5 +47,12 @@ $colorTerciario: #E94560;
         border: solid 2px rgba($color: $colorSecundario, $alpha: 1.0);
       }
     }
+  }
+}
+
+@media all and (max-width: 480px) {
+  .nav-container {
+    display: none;
+    margin: 0;
   }
 }

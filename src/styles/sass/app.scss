@@ -1,0 +1,10 @@
+body { 
+  text-align: center;
+}
+
+@media all and (max-width: 480px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

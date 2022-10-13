@@ -5,7 +5,7 @@
   height: 10vh;
 }
 .header .inicio-container {
-  margin-left: 40px;
+  margin-left: 1em;
   border-radius: 6px;
   padding: 0 12px;
   cursor: pointer;
@@ -43,6 +43,13 @@
 }
 .header .nav-container .list-nav .list-item:hover {
   border: solid 2px #0c716e;
+}
+
+@media all and (max-width: 480px) {
+  .nav-container {
+    display: none;
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */

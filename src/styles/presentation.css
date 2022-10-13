@@ -32,4 +32,25 @@
   width: 100%;
 }
 
+@media all and (max-width: 720px) {
+  .presentation {
+    width: 100%;
+  }
+  .presentation .presentation-container {
+    margin: 2em auto;
+    width: 90%;
+  }
+  .presentation .presentation-container .title-pre {
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: 0;
+  }
+  .presentation .presentation-container .title-name {
+    font-size: 6em;
+  }
+  .presentation .presentation-container .title-dev {
+    font-size: 2.5em;
+  }
+}
+
 /*# sourceMappingURL=presentation.css.map */

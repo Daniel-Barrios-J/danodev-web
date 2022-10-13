@@ -37,3 +37,24 @@ $colorTerciario: #E94560;
     }
   }
 }
+
+@media all and (max-width: 720px) {
+  .presentation {
+    width: 100%;
+    .presentation-container {
+      margin: 2em auto;
+      width: 90%;
+      .title-pre {
+        font-size: 1.5em;
+        font-weight: bolder;
+        margin: 0;
+      }
+      .title-name {
+        font-size: 6em;
+      }
+      .title-dev {
+        font-size: 2.5em;
+      }
+    }
+  }
+}

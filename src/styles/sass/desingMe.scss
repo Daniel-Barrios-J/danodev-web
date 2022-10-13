@@ -16,5 +16,19 @@ $colorTerciario: #E94560;
     align-items: center;
     flex-wrap: wrap;
     max-width: 100%;
+    margin-bottom: 32px;
+  }
+}
+
+@media all and (max-width: 720px) {
+  .desing-me {
+    width: 100%;
+    margin-top: 24px;
+    .title-projects {
+      font-size: 2em;
+    }
+    .desing-me-container {
+      justify-content: center;
+    }
   }
 }
