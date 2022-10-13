@@ -7,3 +7,11 @@
     color: white;
   }
 }
+
+@media all and (max-width: 640px) {
+  .portfolio-main {
+    h1 {
+      font-size: 34px;
+    }
+  }
+}

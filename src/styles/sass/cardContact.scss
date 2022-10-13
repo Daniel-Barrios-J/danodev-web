@@ -3,21 +3,21 @@ $colorSecundario: #0c716e;
 $colorTerciario: #E94560;
 
 .card-contact {
-  width: 300px;
+  width: 280px;
   display: flex;
   align-items: center;
   color: aliceblue;
   .card-container-description {
     opacity: 0;
-    margin-left: 24px;
+    margin-left: 2px;
     transition: all 200ms;
     width: 150px;
   }
   .card-contact-logo {
     cursor: pointer;
     padding: 10px;
-    width: 6em;
-    height: 6em;
+    width: 4.5em;
+    height: 4.5em;
     background: rgb(201, 201, 201);
     border-radius: 1.2em;
     // opacity: 0.6;
