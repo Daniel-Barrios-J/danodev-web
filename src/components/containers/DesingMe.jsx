@@ -11,7 +11,7 @@ const DesingMe = () => {
         <CardProject
           project={'Amaranto'}
           description={'Una tienda en linea de flores, creada con react, redux y mas'}
-          link={'#'}
+          // link={'#'}
         />
         
         <CardProject 
@@ -19,13 +19,21 @@ const DesingMe = () => {
           description={'Una pagina donde podras votar por los chistes malos sobre chuck norris'} 
           link={'https://chuck-danodev.netlify.app/'}  
         />
-       
+        
         <CardProject 
-          project='Chuck Jokes'
-          description={'Una pagina donde podras votar por los chistes malos sobre chuck norris'} 
-          link={'https://chuck-danodev.netlify.app/'}  
+          project={'To do list'}
+          description={'Usa esta herramienta de lista de tareas para mejorar tu productividad'}
+        />
+        
+        <CardProject 
+          project={'Calculadora'}
+          description={'Una calculadora sencilla, creada con react y Hooks'}
         />
 
+        <CardProject 
+          project={'Crea un meme'}
+          description={'Una plantilla para hacer memes'}
+        />
       </div>
     </section>
   );
