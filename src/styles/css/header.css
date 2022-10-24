@@ -4,6 +4,7 @@
   align-items: center;
   height: 10vh;
 }
+
 .header .inicio-container {
   margin-left: 1em;
   border-radius: 6px;
@@ -11,8 +12,10 @@
   cursor: pointer;
   text-decoration: none;
 }
+
 .header .inicio-container .inicio-title {
   color: transparent;
+  -webkit-background-clip: text;
   background-clip: text;
   font-size: 24px;
   margin: 0;
@@ -20,13 +23,16 @@
   background-position: center;
   background-size: cover;
 }
+
 .header .nav-container {
   margin-right: 16px;
 }
+
 .header .nav-container img {
   width: 44px;
   display: none;
 }
+
 .header .nav-container .list-nav {
   padding: 0;
   display: flex;
@@ -34,6 +40,7 @@
   justify-content: space-around;
   gap: 2em;
 }
+
 .header .nav-container .list-nav .list-item {
   cursor: pointer;
   text-decoration: none;
@@ -45,6 +52,7 @@
   color: beige;
   width: 72px;
 }
+
 .header .nav-container .list-nav .list-item:hover {
   border: solid 2px #0c716e;
 }
@@ -82,6 +90,6 @@
     transform: translateX(0px);
     opacity: 1;
   }
-}
+} /*# sourceMappingURL=header.css.map */
 
 /*# sourceMappingURL=header.css.map */

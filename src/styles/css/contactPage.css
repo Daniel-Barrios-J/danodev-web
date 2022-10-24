@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
 }
+
 .card-page .card-contact-container {
   width: 90%;
   height: 75vh;
@@ -11,6 +12,7 @@
   align-items: center;
   gap: 5em;
 }
+
 .card-page .contact-direct {
   height: 15vh;
   display: flex;
@@ -24,6 +26,6 @@
   .card-page .card-contact-container {
     width: 100%;
   }
-}
+} /*# sourceMappingURL=contactPage.css.map */
 
 /*# sourceMappingURL=contactPage.css.map */
