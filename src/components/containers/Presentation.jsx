@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import '../../styles/presentation.css'
+import '../../styles/css/presentation.css'
 import Button from '../pure/Button';
 
 const Presentation = () => {

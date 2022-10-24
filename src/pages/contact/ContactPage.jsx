@@ -1,7 +1,7 @@
 import React from 'react';
 import CardContact from '../../components/pure/cardContact';
 import Header from '../../components/pure/Header';
-import '../../styles/contactPage.css'
+import '../../styles/css/contactPage.css'
 
 
 const ContactPage = () => {

@@ -56,6 +56,7 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
   background: #fff;
   color: #000;
+  cursor: pointer;
 }
 .card .box:hover {
   transform: translateY(-24px) translateX(-16px) scale(1.1);

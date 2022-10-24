@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/cardContact.css'
+import '../../styles/css/cardContact.css'
 const CardContact = ({img, description, link}) => {
   return (
     <div className='card-contact'>

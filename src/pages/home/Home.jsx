@@ -2,7 +2,7 @@ import React from 'react';
 import DesingMe from '../../components/containers/DesingMe';
 import Header from '../../components/pure/Header';
 import Presentation from '../../components/containers/Presentation';
-import '../../styles/home.css'
+import '../../styles/css/home.css'
 
 const Home = () => {
   return (

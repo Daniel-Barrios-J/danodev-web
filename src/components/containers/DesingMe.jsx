@@ -1,6 +1,6 @@
 import React from 'react';
 import CardProject from '../pure/cardProject';
-import '../../styles/desingMe.css'
+import '../../styles/css/desingMe.css'
 
 const DesingMe = () => {
   return (

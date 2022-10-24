@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/cardSkill.css'
+import '../../styles/css/cardSkill.css'
 
 const CardSkills = ({skill, description, urlImage}) => {
   return (  

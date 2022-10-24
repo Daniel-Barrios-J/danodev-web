@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/cardProject.css'
+import '../../styles/css/cardProject.css'
 
 const CardProject = ({project, description, link}) => {
   return (
@@ -8,7 +8,7 @@ const CardProject = ({project, description, link}) => {
         <div class="content">
           <h3>{project}</h3>
           <p>{description}</p>
-          <a target={'_blank'} href={link} rel="noreferrer" >Read More</a>
+          <a target={'_blank'} href={link} rel="noreferrer" >Ir a la app</a>
         </div>
       </div>
     </div>

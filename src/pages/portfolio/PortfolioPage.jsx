@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../../components/pure/Header';
-import '../../styles/portfolioPage.css'
+import '../../styles/css/portfolioPage.css'
 
 const PortfolioPage = () => {
   return (

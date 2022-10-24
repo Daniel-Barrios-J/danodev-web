@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/skills.css'
+import '../../styles/css/skills.css'
 import CardSkills from '../pure/CardSkills';
 
 const Skills = () => {
