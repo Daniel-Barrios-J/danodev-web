@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  user-select: none;
 }
 
 @media all and (max-width: 480px) {
@@ -7,6 +8,6 @@ body {
     display: flex;
     flex-wrap: wrap;
   }
-} /*# sourceMappingURL=app.css.map */
+}
 
 /*# sourceMappingURL=app.css.map */
