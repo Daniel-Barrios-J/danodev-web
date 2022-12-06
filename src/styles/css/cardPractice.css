@@ -1,63 +1,66 @@
-.card {
+.card-practice {
   position: relative;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  width: 240px;
-  height: 280px;
+  width: 140px;
+  height: 180px;
   border-radius: 15px;
-  margin: 30px 30px 0;
   transition: 0.5s;
   background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
 }
-.card .box {
+.card-practice .box {
   width: 90%;
   height: 90%;
   margin: 4px;
   background: #2a2b2f;
   border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
   transition: 300ms ease-out;
 }
-.card .box .content {
-  padding: 20px;
+.card-practice .box .content {
+  padding: 4px;
   text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.card .box .content h3 {
-  font-size: 1.8rem;
+.card-practice .box .content h3 {
+  font-size: 18px;
   color: #fff;
   z-index: 1;
   transition: 0.5s;
-  margin-bottom: 15px;
+  margin: 0;
 }
-.card .box .content p {
-  font-size: 1rem;
+.card-practice .box .content p {
+  font-size: 12px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.9);
   z-index: 1;
   transition: 0.5s;
+  margin: 0;
 }
-.card .box .content a {
+.card-practice .box .content a {
   position: relative;
   display: inline-block;
-  padding: 8px 20px;
+  padding: 8px 10px;
   background: #2196f3;
+  font-size: 14px;
   border-radius: 5px;
   text-decoration: none;
   color: white;
-  margin-top: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
 }
-.card .box .content a:hover {
+.card-practice .box .content a:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
   background: #fff;
   color: #000;
   cursor: pointer;
 }
-.card .box:hover {
-  transform: translateY(-24px) translateX(-16px) scale(1.1);
-}/*# sourceMappingURL=cardProject.css.map */
+.card-practice .box:hover {
+  transform: translateY(-12px) translateX(-8px) scale(1.1);
+}
+
+/*# sourceMappingURL=cardPractice.css.map */

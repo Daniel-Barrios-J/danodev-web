@@ -1,36 +1,27 @@
-import React, { useState, useEffect }from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useEffect, useState }from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../../styles/css/header.css'
 
 const Header = () => {
 
-  const obtenerAncho = ()=> {
-    let widthSize = document.documentElement.clientWidth;
-    setWidth(widthSize);
-    console.log(widthSize)
-  }
-
-  const [width, setWidth] = useState(0);
+  const navigate = useNavigate();
+  const [menu, setMenu] = useState(false);
+  const [width, setWidth] = useState(document.documentElement.clientWidth);
 
   useEffect(() => {
-    obtenerAncho()
+    setWidth(document.documentElement.clientWidth)
   }, []);
-  
-
-  console.log(width)
 
   return (
     <header className='header'>
-        <NavLink className='inicio-container' to={'/'}>
-          <h3 className='inicio-title'>DanoDev</h3>
-        </NavLink>
+        <h3 className='inicio-title' onClick={()=>navigate('/')}>DanielWeb</h3>
         <nav className='nav-container'>
-          <img alt='menu' src="https://img.icons8.com/nolan/64/menu.png"/>
-          <ul className={width > 640 ? 'list-nav' : 'menu-mobile'}>
-            <NavLink className='list-item' to={'/'}>Home</NavLink>
-            <NavLink className='list-item' to={'/about'}>About</NavLink>
-            <NavLink className='list-item' to={'/contact'}>Contact</NavLink>            
-            <NavLink className='list-item' to={'/portfolio'}>Portfolio</NavLink>
+          <img alt='menu' onClick={()=>setMenu(!menu)} src="https://img.icons8.com/nolan/64/menu.png"/>
+          <ul className={width > 640 ? 'list-nav' : `menu-mobile ${menu && 'show'}`}>
+            <li className='list-item' onClick={()=>navigate('/')}>Home</li>
+            <li className='list-item' onClick={()=>navigate('/about')}>About</li>
+            <li className='list-item' onClick={()=>navigate('/contact')}>Contact</li>            
+            <li className='list-item' onClick={()=>navigate('/portfolio')}>Portfolio</li>
           </ul>
         </nav>
       </header>

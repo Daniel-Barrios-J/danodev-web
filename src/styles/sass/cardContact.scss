@@ -6,20 +6,21 @@ $colorTerciario: #E94560;
   width: 280px;
   display: flex;
   align-items: center;
+  justify-content: center;
   color: aliceblue;
   .card-container-description {
     opacity: 0;
-    margin-left: 2px;
+    // margin-left: 2px;
     transition: all 200ms;
     width: 150px;
   }
   .card-contact-logo {
     cursor: pointer;
     padding: 10px;
-    width: 4.5em;
-    height: 4.5em;
+    width: 3em;
+    height: 3em;
     background: rgb(201, 201, 201);
-    border-radius: 1.2em;
+    border-radius: 1em;
     // opacity: 0.6;
     transition: all 0.4s cubic-bezier(0.33, 1, 0.68, 1);
     display: grid;
@@ -56,7 +57,7 @@ $colorTerciario: #E94560;
     }
     .card-container-description {
       opacity: 1;
-      transform: translateX(50px);
+      margin-left: 24px;
     }
   }
   

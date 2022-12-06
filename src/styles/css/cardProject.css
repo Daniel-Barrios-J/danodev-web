@@ -10,7 +10,6 @@
   transition: 0.5s;
   background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
 }
-
 .card .box {
   width: 90%;
   height: 90%;
@@ -23,12 +22,10 @@
   overflow: hidden;
   transition: 300ms ease-out;
 }
-
 .card .box .content {
   padding: 20px;
   text-align: center;
 }
-
 .card .box .content h3 {
   font-size: 1.8rem;
   color: #fff;
@@ -36,7 +33,6 @@
   transition: 0.5s;
   margin-bottom: 15px;
 }
-
 .card .box .content p {
   font-size: 1rem;
   font-weight: 300;
@@ -44,7 +40,6 @@
   z-index: 1;
   transition: 0.5s;
 }
-
 .card .box .content a {
   position: relative;
   display: inline-block;
@@ -57,16 +52,14 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
 }
-
 .card .box .content a:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
   background: #fff;
   color: #000;
   cursor: pointer;
 }
-
 .card .box:hover {
   transform: translateY(-24px) translateX(-16px) scale(1.1);
-} /*# sourceMappingURL=cardProject.css.map */
+}
 
 /*# sourceMappingURL=cardProject.css.map */

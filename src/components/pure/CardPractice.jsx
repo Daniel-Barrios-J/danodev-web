@@ -1,9 +1,9 @@
 import React from 'react';
-import '../../styles/css/cardProject.css'
+import '../../styles/css/cardPractice.css'
 
-const CardProject = ({project, description, link}) => {
+const CardPractice = ({project, description, link}) => {
   return (
-    <div className="card">
+    <div className="card-practice">
       <div className="box">
         <div className="content">
           <h3>{project}</h3>
@@ -15,4 +15,4 @@ const CardProject = ({project, description, link}) => {
   );
 }
 
-export default CardProject;
+export default CardPractice;

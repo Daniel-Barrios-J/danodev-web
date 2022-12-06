@@ -8,7 +8,6 @@
   flex-direction: column;
   align-items: center;
 }
-
 .card-skill .img-container {
   display: grid;
   place-content: center;
@@ -20,11 +19,9 @@
   z-index: 1;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
 }
-
 .card-skill .img-container .inner-skew {
   width: 88px;
 }
-
 .card-skill .text-container {
   padding: 60px 10px 10px 10px;
   border-radius: 20px;
@@ -34,15 +31,13 @@
   font-size: 14px;
   min-height: 100px;
 }
-
 .card-skill .text-container h3 {
   margin: 10px 0px 5px 0px;
   color: #04bcff;
   font-size: 18px;
 }
-
 .card-skill:hover {
   transform: scale(1.1);
-} /*# sourceMappingURL=cardSkill.css.map */
+}
 
 /*# sourceMappingURL=cardSkill.css.map */

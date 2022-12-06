@@ -2,8 +2,8 @@
   height: 90vh;
   display: grid;
   place-content: center;
+  width: 100vw;
 }
-
 .portfolio-main h1 {
   font-size: 10em;
   color: white;
@@ -13,6 +13,6 @@
   .portfolio-main h1 {
     font-size: 34px;
   }
-} /*# sourceMappingURL=portfolioPage.css.map */
+}
 
 /*# sourceMappingURL=portfolioPage.css.map */

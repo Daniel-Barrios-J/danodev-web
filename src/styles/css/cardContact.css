@@ -2,37 +2,32 @@
   width: 280px;
   display: flex;
   align-items: center;
+  justify-content: center;
   color: aliceblue;
 }
-
 .card-contact .card-container-description {
   opacity: 0;
-  margin-left: 2px;
   transition: all 200ms;
   width: 150px;
 }
-
 .card-contact .card-contact-logo {
   cursor: pointer;
   padding: 10px;
-  width: 4.5em;
-  height: 4.5em;
+  width: 3em;
+  height: 3em;
   background: rgb(201, 201, 201);
-  border-radius: 1.2em;
+  border-radius: 1em;
   transition: all 0.4s cubic-bezier(0.33, 1, 0.68, 1);
   display: grid;
   place-items: center;
 }
-
 .card-contact .card-contact-logo img {
   width: 90%;
 }
-
 .card-contact:hover .card-contact-logo {
   background: white;
   transform: scale(1.15) rotateZ(45deg);
 }
-
 .card-contact:hover .card-container-description {
   transform: translateX(50px);
   opacity: 1;
@@ -49,8 +44,8 @@
   }
   .card-contact .card-container-description {
     opacity: 1;
-    transform: translateX(50px);
+    margin-left: 24px;
   }
-} /*# sourceMappingURL=cardContact.css.map */
+}
 
 /*# sourceMappingURL=cardContact.css.map */

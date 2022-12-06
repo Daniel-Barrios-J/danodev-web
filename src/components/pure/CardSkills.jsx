@@ -3,11 +3,11 @@ import '../../styles/css/cardSkill.css'
 
 const CardSkills = ({skill, description, urlImage}) => {
   return (  
-    <div class="card-skill">
-      <div class="img-container">
-        <img class="inner-skew" alt='skill' src={urlImage}/>
+    <div className="card-skill">
+      <div className="img-container">
+        <img className="inner-skew" alt='skill' src={urlImage}/>
       </div>
-      <div class="text-container">
+      <div className="text-container">
         <h3>{skill}</h3>
         <div className='text'>
           {description}
