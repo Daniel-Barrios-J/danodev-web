@@ -13,12 +13,17 @@
     gap: 5em;
   }
   .contact-direct {
-    height: 15vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1em;
+    display: grid;
+    place-content: center;
     color: beige;
+    a {
+      font-size: 1.5em;
+      text-decoration: none;
+      color: aliceblue;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 

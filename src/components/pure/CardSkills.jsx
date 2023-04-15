@@ -10,7 +10,7 @@ const CardSkills = ({skill, description, urlImage}) => {
       <div className="text-container">
         <h3>{skill}</h3>
         <div className='text'>
-          {description}
+          {/* {description} */}
         </div>
       </div>
     </div>

@@ -14,8 +14,7 @@ const ContactPage = () => {
         <CardContact description={'Whatsapp'} link={'https://wa.me/qr/25WQMWRFOEVZG1'} img={'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.freepnglogos.com%2Fuploads%2Fwhatsapp-logo-image-8.png&f=1&nofb=1&ipt=880aec13797d46a406779b03b4554b8653b354ad01695bbc06464bf6ddf8bbf7&ipo=images'} />
       </div>
       <div className='contact-direct'>
-        <p>daniel.bj.rd@gmail.com</p>
-        {/* <p>55 86 68 86 87</p> */}
+        <a href='mailto:daniel.bj.rd@gmail.com'>daniel.bj.rd@gmail.com</a>
       </div>
     </div>
   );

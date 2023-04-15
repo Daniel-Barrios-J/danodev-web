@@ -1,5 +1,5 @@
 .skills {
-  width: 50%;
+  width: 65%;
   margin-top: 12px;
 }
 .skills .title-skills {
@@ -9,11 +9,11 @@
   font-size: 40px;
 }
 .skills .skills-container {
-  margin-top: 56px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(auto, auto);
-  gap: 32px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 24px;
+  padding: 36px;
 }
 
 @media all and (max-width: 720px) {

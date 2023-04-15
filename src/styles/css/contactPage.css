@@ -13,12 +13,17 @@
   gap: 5em;
 }
 .card-page .contact-direct {
-  height: 15vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1em;
+  display: grid;
+  place-content: center;
   color: beige;
+}
+.card-page .contact-direct a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: aliceblue;
+}
+.card-page .contact-direct a:hover {
+  text-decoration: underline;
 }
 
 @media all and (max-width: 720px) {

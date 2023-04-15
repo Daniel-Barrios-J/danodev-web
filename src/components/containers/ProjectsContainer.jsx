@@ -11,9 +11,9 @@ const ProjectsContainer = () => {
           link={'https://amaranto-site.netlify.app/'}
         />
       <CardProject
-          project={'Amaranto'}
-          description={'Una tienda en linea de flores, creada con react, redux y mas'}
-          link={'https://amaranto-site.netlify.app/'}
+          project={'Divine nails'}
+          description={'Pagina de salon de belleza, creada con react, MUI y styled components'}
+          link={'https://divine-nails-site.netlify.app/'}
         />
     </div>
   );

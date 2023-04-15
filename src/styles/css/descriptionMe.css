@@ -1,21 +1,18 @@
 .about-me {
   width: 50%;
+  height: 100%;
   text-align: left;
   color: white;
+  display: grid;
+  place-content: center;
 }
-.about-me .about-me-container {
-  margin: 8em 0 0 3em;
-  width: 90%;
-}
-.about-me .about-me-container .about-me-text {
+.about-me .about-me-text {
   font-size: 24px;
   font-weight: bolder;
-  width: 80%;
+  padding: 36px;
   height: auto;
-  margin: 0 0 0 24px;
 }
-.about-me .about-me-container .about-me-text .title-name {
-  margin: 24px 0;
+.about-me .about-me-text .title-name {
   font-size: 32px;
   font-weight: bolder;
   color: transparent;
