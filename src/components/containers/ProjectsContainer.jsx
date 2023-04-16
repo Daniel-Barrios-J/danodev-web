@@ -7,13 +7,13 @@ const ProjectsContainer = () => {
     <div className='projects-container'>
       <CardProject
           project={'Amaranto'}
-          description={'Una tienda en linea de flores, creada con react, redux y mas'}
+          description={'Una tienda en linea de flores, creada con react, redux y firebase'}
           link={'https://amaranto-site.netlify.app/'}
         />
       <CardProject
-          project={'Divine nails'}
-          description={'Pagina de salon de belleza, creada con react, MUI y styled components'}
-          link={'https://divine-nails-site.netlify.app/'}
+          project={'Chat-GPT'}
+          description={'Un clon funcional, hecho con react y LIT element con la API de OpenAI'}
+          link={'https://gpt-dan-clone.netlify.app/'}
         />
     </div>
   );
