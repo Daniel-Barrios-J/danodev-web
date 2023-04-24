@@ -1,15 +1,6 @@
-.portfolio-page-container {
-  width: 100vw;
-}
 .portfolio-page-container h1 {
   font-size: 2.8em;
   color: #F0F0F0;
-}
-
-@media all and (max-width: 640px) {
-  .portfolio-main h1 {
-    font-size: 34px;
-  }
 }
 
 /*# sourceMappingURL=portfolioPage.css.map */

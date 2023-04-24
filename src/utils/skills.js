@@ -56,5 +56,4 @@ export const skills = [
     tech:'MUI',
     img: imgUrls.MUI
   },
-
 ]

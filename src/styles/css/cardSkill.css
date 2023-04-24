@@ -27,6 +27,7 @@
   background: #fff;
   margin: -54px 0px 0px 0px;
   line-height: 12px;
+  overflow: hidden;
 }
 .card-skill .text-container h3 {
   margin: 10px 0px 5px 0px;
