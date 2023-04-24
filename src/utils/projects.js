@@ -10,18 +10,16 @@ export const projects = [
     link: 'https://gpt-dan-clone.netlify.app/',
     description:
     <>
+      <p>Esta aplicacion funcionó como práctica para implementar conocimientos de POO, consumo de API's e incorporación de LIT o Lit element con React, la idea fue simular un ambiente de trabajo donde los equipos desarrollaron distintas partes de la app.</p>
       <ul>
         <li>
-        Esta aplicacion esta contruida con web-components gracias a LIT y como base, fue creada con React.
+        Contruida con web-components gracias a LIT y como base, fue creada con React. (El proyecto inicial fue construido con un equipo trainee del que soy parte. Puede consultarse en el siguiente repositorio <a style={stylesAnchor} href="https://github.com/maldos23/class-lit-kairos-chatGPT">aquí</a> con toda la info del proyecto inicial)
         </li>
         <br />
         <li>
-        El proyecto inicial fue construido con un equipo trainee del que soy parte. Puede consultarse en el siguiente repositorio <a style={stylesAnchor} href="https://github.com/maldos23/class-lit-kairos-chatGPT">aquí</a> con toda la info del proyecto original.
+          Por mi parte, me encargue del area del historial, dandole funcionalidad, y posteriormente, segui avanzando el proyecto por mi cuenta, usando tecnologia de LIT, añadiendo responsividad y titulos dinamicos de los chats utilizando la propia API de OpenAI
         </li>
       </ul>
-      <p>
-        Por mi cuenta, añadí funcionalidad al historial de chats, correccion de estilos, incluso responsividad para acceder de dispotitivos moviles. Los titulos de cada chat son dinamicos, creados usando la propia API de OpenAI.
-      </p>
       <p>
         Consulta el repositorio donde trabajo en el proyecto actual <a style={stylesAnchor} href="https://github.com/Daniel-Barrios-J/Kairos-chatGPT">aquí</a>
       </p>

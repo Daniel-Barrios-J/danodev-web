@@ -6,7 +6,7 @@
   width: 240px;
   height: 280px;
   border-radius: 15px;
-  margin: 30px 30px 0;
+  margin: 30px;
   transition: 0.5s;
   background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
 }
