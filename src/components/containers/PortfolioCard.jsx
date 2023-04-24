@@ -10,8 +10,10 @@ const PortfolioCardContainer = styled.div`
   justify-content: center;
   padding: 24px;
   border-top: solid 1px white;
-  width: 90%;
-  margin: 0 auto;
+  gap: 0 24px;
+  .card-project {
+    width: auto;
+  }
 `
 
 const Description = styled.div`
@@ -19,9 +21,9 @@ const Description = styled.div`
   flex-direction: column;
   text-align: start;
   padding: 8px;
-  max-width: 40%;
-  min-width: 300px;
-  color: beige;
+  color: whitesmoke;
+  min-width: 350px;
+  width: 40%;
   h2 {
     margin: 0;
   }
@@ -30,11 +32,10 @@ const Description = styled.div`
 const Technologies = styled.div`
   display: flex;
   flex-direction: column;
-  width: 30%;
-  max-width: 30%;
-  min-width: 400px;
+  min-width: 350px;
+  width: 25%;
   h2 {
-    color: beige;
+    color: whitesmoke;
   }
   .technologies-container {
     display: flex;
@@ -46,11 +47,13 @@ const Technologies = styled.div`
 
 export default function PortfolioCard({name, description, technologies, link}) {
   return (
-    <PortfolioCardContainer className='portfolio-card'>
-      <CardProject
-        project={name}
-        link={link}
-      />
+    <PortfolioCardContainer>
+      <div className='card-project'>
+        <CardProject
+          project={name}
+          link={link}
+        />
+      </div>
       <Description>
         <h2>{name}</h2>
         {description}
