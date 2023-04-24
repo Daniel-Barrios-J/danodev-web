@@ -9,6 +9,7 @@ const ContactPage = () => {
     <div className='card-page'>
       <Header />
       <div className='card-contact-container'>
+        <h1>Contáctame</h1>
         <CardContact description={'Linked In'} link={'https://www.linkedin.com/in/daniel-barrios-jim%C3%A9nez-9823041b7/'} img={imgUrls.LINKED_IN} />
         <CardContact description={'Whatsapp'} link={'https://wa.me/qr/25WQMWRFOEVZG1'} img={imgUrls.WHATSAPP} />
         <CardContact description={'GitHub'} link={'https://github.com/Daniel-Barrios-J'} img={imgUrls.GITHUB} />

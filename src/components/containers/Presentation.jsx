@@ -17,6 +17,9 @@ const Presentation = () => {
           <NavLink to={'/about'}>
             <Button description={'Sobre mi'} type={'secondary'}/>  
           </NavLink>
+          <NavLink to={'/portfolio'}>
+            <Button description={'Portafolio'} type={'third'}/>  
+          </NavLink>
         </div>
       </div>
     </section>

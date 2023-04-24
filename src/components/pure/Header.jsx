@@ -19,9 +19,9 @@ const Header = () => {
           <img alt='menu' onClick={()=>setMenu(!menu)} src="https://img.icons8.com/nolan/64/menu.png"/>
           <ul className={width > 640 ? 'list-nav' : `menu-mobile ${menu && 'show'}`}>
             <li className='list-item' onClick={()=>navigate('/')}>Home</li>
-            <li className='list-item' onClick={()=>navigate('/about')}>About</li>
-            <li className='list-item' onClick={()=>navigate('/contact')}>Contact</li>            
+            <li className='list-item' onClick={()=>navigate('/about')}>About me</li>
             <li className='list-item' onClick={()=>navigate('/portfolio')}>Portfolio</li>
+            <li className='list-item' onClick={()=>navigate('/contact')}>Contact</li>            
           </ul>
         </nav>
       </header>

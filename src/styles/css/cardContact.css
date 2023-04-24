@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   color: aliceblue;
+  text-decoration: none;
 }
 .card-contact .card-container-description {
   opacity: 0;
@@ -29,7 +30,7 @@
   transform: scale(1.15) rotateZ(45deg);
 }
 .card-contact:hover .card-container-description {
-  transform: translateX(50px);
+  transform: translateX(18px);
   opacity: 1;
 }
 

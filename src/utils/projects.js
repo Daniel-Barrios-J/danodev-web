@@ -4,6 +4,7 @@ const stylesAnchor = {
   textDecoration: 'underline',
   color: '#05BFDB'
 }
+
 export const projects = [
   {
     name: 'Chat-GPT funcional',
@@ -137,7 +138,6 @@ export const projects = [
         tech:'MUI',
         img: imgUrls.MUI
       },
-      
     ]
   },
 ]

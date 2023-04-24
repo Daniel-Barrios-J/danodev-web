@@ -10,7 +10,7 @@ export const imgUrls = {
   FIREBASE:'https://miro.medium.com/v2/resize:fit:480/1*Cnv3NyPBLkabjYUBJuZnBw.png',
   JAVASCRIPT:'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
   HTML:'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png',
-  CSS:'',
+  CSS:'https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png',
   GITHUB:'https://cdn-icons-png.flaticon.com/512/25/25231.png',
   STYLED_COMPONENTS: 'https://cdn.sanity.io/images/djtlwm1o/production/cd48e3fba521deb47078ea36b7073e2f0e511af7-257x286.png',
   MUI:'https://mui.com/static/logo.png',

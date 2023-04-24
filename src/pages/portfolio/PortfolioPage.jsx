@@ -8,6 +8,7 @@ const PortfolioPage = () => {
   return (
     <div className='portfolio-page-container'>
       <Header />
+      <h1>Portafolio</h1>
       {
         projects.map(project => <PortfolioCard {...project} />)
       }

@@ -1,6 +1,9 @@
 .skills {
   width: 65%;
   margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .skills .title-skills {
   margin: 0 32px;

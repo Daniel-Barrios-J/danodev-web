@@ -1,16 +1,20 @@
 .about-me {
   width: 50%;
-  height: 100%;
   text-align: left;
   color: white;
   display: grid;
   place-content: center;
 }
+.about-me h1 {
+  font-size: 56px;
+  margin: 0;
+  padding: 0 36px;
+}
 .about-me .about-me-text {
   font-size: 24px;
   font-weight: bolder;
   padding: 36px;
-  height: auto;
+  margin: 0;
 }
 .about-me .about-me-text .title-name {
   font-size: 32px;

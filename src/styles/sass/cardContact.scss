@@ -8,9 +8,9 @@ $colorTerciario: #E94560;
   align-items: center;
   justify-content: center;
   color: aliceblue;
+  text-decoration: none;
   .card-container-description {
     opacity: 0;
-    // margin-left: 2px;
     transition: all 200ms;
     width: 150px;
   }
@@ -21,7 +21,6 @@ $colorTerciario: #E94560;
     height: 3em;
     background: rgb(201, 201, 201);
     border-radius: 1em;
-    // opacity: 0.6;
     transition: all 0.4s cubic-bezier(0.33, 1, 0.68, 1);
     display: grid;
     place-items: center;
@@ -36,7 +35,7 @@ $colorTerciario: #E94560;
       transform: scale(1.15) rotateZ(45deg);
     }
     .card-container-description {
-      transform: translateX(50px);
+      transform: translateX(18px);
       opacity: 1;
     }
   }
@@ -51,7 +50,6 @@ $colorTerciario: #E94560;
         img {
           transform: scale(1.15) rotateZ(-45deg);
           width: 70%;
-          
         }
       }
     }
@@ -60,6 +58,4 @@ $colorTerciario: #E94560;
       margin-left: 24px;
     }
   }
-  
-  
 }

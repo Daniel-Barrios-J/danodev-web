@@ -1,12 +1,9 @@
-.portfolio-main {
-  height: 90vh;
-  display: grid;
-  place-content: center;
+.portfolio-page-container {
   width: 100vw;
 }
-.portfolio-main h1 {
-  font-size: 10em;
-  color: white;
+.portfolio-page-container h1 {
+  font-size: 2.8em;
+  color: #F0F0F0;
 }
 
 @media all and (max-width: 640px) {

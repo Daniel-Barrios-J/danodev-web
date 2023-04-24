@@ -1,16 +1,22 @@
 $colorTextPrimary: white;
 $colorTextSecodnary: #36395A;
 $btnBackPrimary: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
-$btnBackSecondary: #FCFCFD;
+$btnBackSecondary: radial-gradient(100% 100% at 100% 0, #F0F0F0 0, #FCFCFD 100%);
+$btnBackThird: radial-gradient(100% 100% at 100% 0, #98D8AA 0, #5D9C59 100%);
+$btnBackFourth: radial-gradient(100% 100% at 100% 0, #FF6969 0, #E94560 100%);
+$shadow-primary: #3c4fe0;
+$shadow-secondary: #D6D6E7;
+$shadow-third: #367E18;
+$shadow-fourth: #FF6969;
 
-@mixin btn-base($backBtn, $color) {
+@mixin btn-base($backBtn, $colorText) {
   font-family: 'Josefin Sans', sans-serif;
   align-items: center;
   background-image: $backBtn;
   border: 0;
   border-radius: 6px;
   box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
-  color: $color;
+  color: $colorText;
   cursor: pointer;
   height: 48px;
   width: 150px;
@@ -20,10 +26,9 @@ $btnBackSecondary: #FCFCFD;
   font-size: 18px;
 }
 
-.btn-primary {
-  @include btn-base($btnBackPrimary, $colorTextPrimary);
+@mixin btnAnimation($colorShadow) {
   &:hover {
-    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, $colorShadow 0 -3px 0 inset;
     transform: translateY(-2px);
   }
   &:active {
@@ -32,15 +37,19 @@ $btnBackSecondary: #FCFCFD;
   }
 }
 
+// @mixin animationBtn()
+.btn-primary {
+  @include btn-base($btnBackPrimary, $colorTextPrimary);
+  @include btnAnimation($shadow-primary);
+}
+
 
 .btn-secondary {
   @include btn-base($btnBackSecondary, $colorTextSecodnary);
-  &:hover {
-    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-    transform: translateY(-2px);
-  }
-  &:active {
-    box-shadow: #D6D6E7 0 3px 7px inset;
-    transform: translateY(0px);
-  }
+  @include btnAnimation($shadow-secondary)
+}
+
+.btn-third {
+  @include btn-base($btnBackThird, $colorTextPrimary);
+  @include btnAnimation($shadow-third)
 }

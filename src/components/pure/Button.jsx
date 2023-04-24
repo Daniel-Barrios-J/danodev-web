@@ -3,7 +3,7 @@ import '../../styles/css/buttons.css'
 
 const Button = ({description, type = 'primary'}) => {
   return (
-    <button className={type === 'secondary' ? 'btn-secondary' : 'btn-primary' }>
+    <button className={`btn-${type}`}>
       {description}
     </button>
   );
